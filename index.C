@@ -20,7 +20,7 @@ int main()
     for (i=0; i<N; i++) {
         for (j=0; j<M; j++)
             printf("%4d", a[i][j]);
-        printf("\n");
+        printf("\n"); // Переход на новую строку //
     }
     printf("Максимальный среди минимальных: %d\n", max);
 }
